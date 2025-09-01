@@ -58,6 +58,9 @@ html, body{
         font-family: var(--fonte3);
         font-size: 3.5vw;
     }
+    section > p{
+        padding-bottom: 2em;
+    }
     section.normal{
         background-color:white ;
         color: black;
@@ -65,11 +68,21 @@ html, body{
     section.imagem{
         background-color: rgb(56, 55, 55);
         color: white;
+        box-shadow: inset 6px 6px 13px 0px rgb(163, 11, 11);
+        background-attachment: fixed;
     }
     section.imagem > p {
-        background-color: rgb(53, 52, 52);
+        background-color: rgba(0, 0, 0, 0.514);
         display: inline-block;
         padding: 5px;
+    }
+    section#img01{
+background-image: url(../desafio12/imagens/flamengo01.jpg);
+background-size: cover;
+    }
+    section#img02{
+background-image: url(../desafio12/imagens/flamengo3.jpeg);
+
     }
     footer{
         background-color: black;
